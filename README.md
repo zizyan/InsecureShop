@@ -1,26 +1,21 @@
-# 📱 InsecureShop
+<p align="center">
+<a href="https://github.com/hax0rgb/InsecureShop/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
+<a href="https://github.com/hax0rgb/InsecureShop/releases"><img src="https://img.shields.io/github/v/release/hax0rgb/InsecureShop"></a>
+</p>
 
-* InsecureShop is an Android application that is designed to be intentionally vulnerable. 
-* The aim of creating this app is to teach developers and security professionals about the vulnerabilities that are present in modern Android applications. 
-* This also serves as a platform to test your Android pentesting skills.
-* Developed in Kotlin, this application was created primarily for research on Android Deeplinks and Webviews. However, several more vulnerabilities were added in this app which were found in real-world Android applications. The vulnerabilities present in this app are real and have been found during mobile pentests.
+---
+InsecureShop is an Android application that is designed to be intentionally vulnerable. The application serves as a platform to test your Android pentesting skills. The vulnerabilities present in this app are real and have been found during mobile pentests.
 
-# ⚙️ Usage
+## ⚙️ Usage
 
-You can compile the source code in Android Studio or simply download the APK file from [here](https://github.com/optiv/InsecureShop/releases/download/v1.0/InsecureShop.apk)
+You can compile the source code in Android Studio or simply download the APK file from [here](https://github.com/hax0rgb/InsecureShop/releases)
 
-# 📌 Note:
+## 📌 Note:
 
-* Rooted device is not required. All vulnerabilities can be exploited on a non-rooted device.
+* Majority of the vulnerabilities can be exploited on a non-rooted device (Threat Actors - Remote users and Malicious third-party applications)
 * No API's being used by the app.
 
-# 🤔 How InsecureShop is different from other Damn Vulnerable Apps?
-
-* **More Realistic:** Mimics a shopping Application.
-* **Built-in Kotlin:** Just because most of the apps are now using Kotlin.
-* **Contains Real-World Vulnerabilities:** Unlike other Damn Vulnerable Apps which contain hypothetical or unrealistic scenarios, most of the vulnerabilities in this app were recently found in actual pentest. Some of the vulnerable implementations are also taken which were highlighted in the research done by several security researchers.
-
-# ❗️Vulnerabilities:
+## ❗️Vulnerabilities:
 
 1. **Hardcoded Credentials:** Credentials are hardcoded somewhere that can be used to login to the application
 2. **Insufficient URL Validation:** Possible to load any arbitrary URL in webview via Deeplink.
@@ -40,16 +35,15 @@ You can compile the source code in Android Studio or simply download the APK fil
 16. **Lack of SSL Certificate Validation:** The unsafe implementation of OnReceived SSL Error can be used to eavesdrop all the traffic loaded in webview.
 17. **Insecure Webview Properties Enabled:** Insecure Webview properties are enabled that can allow third-party apps to exfiltrate local data to remote domain.
 18. **Insecure Data Storage:** The app stores user credentials locally without encrypting them.
-19. **Insecure Logging:** User credentials are leaked in logcat. Only attackers with physical access to the device can access this information. 
+19. **Insecure Logging:** User credentials are leaked in logcat. Only attackers with physical access to the device can access this information.
 
-# 🕵 Hints:
+## 🕵 Guidance:
 
-The provided link doesn't provide you with solutions but can point you in the right direction 😉: 
+The provided link doesn't provide you with solutions but can point you in the right direction:
 
-https://docs.insecureshopapp.com 
-(This is still under development)
+https://docs.insecureshopapp.com
 
-# 🙌 Thanks:
+## 🙌 Credits:
 
 * [Rujul Gandhi](https://www.linkedin.com/in/rujul-gandhi-3953337a/): Thank you for your contributions towards this app
 * [Sergey Toshin](https://twitter.com/_bagipro) [(Oversecured)](https://oversecured.com): Thank you for your amazing research on Android security which prompted me to start this project
