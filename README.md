@@ -1,9 +1,23 @@
+<h1 align="center">
+  <br>
+  <a href="https://www.insecureshopapp.com"><img src="https://static.wixstatic.com/media/8e4f0c_a5f14156f091434da73524c2ac7c53d3~mv2.png/v1/fill/w_269,h_269,al_c,lg_1,q_85/logo.webp" width="150px" alt="InsecureShop"></a>
+</h1>
+
+<h4 align="center">Insecureshop - An Intentionally Vulnerable Android Application</h4>
+
 <p align="center">
 <a href="https://github.com/hax0rgb/InsecureShop/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat"></a>
 <a href="https://github.com/hax0rgb/InsecureShop/releases"><img src="https://img.shields.io/github/v/release/hax0rgb/InsecureShop"></a>
 </p>
 
----
+<p align="center">
+  <a href="%EF%B8%8F-usage">Usage</a> •
+  <a href="#-note">Note</a> •
+  <a href="#%EF%B8%8Fvulnerabilities">Vulnerabilities</a> •
+  <a href="#-guidance">Guidance</a> •
+  <a href="#-credits">Credits</a>
+</p>
+
 InsecureShop is an Android application that is designed to be intentionally vulnerable. The application serves as a platform to test your Android pentesting skills. The vulnerabilities present in this app are real and have been found during mobile pentests.
 
 ## ⚙️ Usage
