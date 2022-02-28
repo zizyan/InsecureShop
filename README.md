@@ -11,7 +11,7 @@
 </p>
 
 <p align="center">
-  <a href="%EF%B8%8F-usage">Usage</a> •
+  <a href="#%EF%B8%8F-usage">Usage</a> •
   <a href="#-note">Note</a> •
   <a href="#%EF%B8%8Fvulnerabilities">Vulnerabilities</a> •
   <a href="#-guidance">Guidance</a> •
